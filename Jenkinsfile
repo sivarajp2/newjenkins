@@ -13,19 +13,19 @@ node
 //     sh "rm -rf terraform"
  
 stage 'Code Checkout'
-    git url: 'https://github.com/sivarajp2/Jenkins.git'         
-stage ('Terraform Install')
-echo 'siva'
+    git url: 'https://github.com/sivarajp2/newjenkins.git'         
+//stage ('Terraform Install')
+//echo 'siva'
 //    sh "unzip terra.zip"
-    sh "ls -ltr"
+//    sh "ls -ltr"
    
    // echo "PATH is: $PATH"
  
-stage ('Terraform Show')
- sh "terraform show"
+//stage ('Terraform Show')
+// sh "terraform show"
     
-stage ('Terraform Install')
-   sh "terraform apply -auto-approve"
+//stage ('Terraform Install')
+ //  sh "terraform apply -auto-approve"
   
   
 }
